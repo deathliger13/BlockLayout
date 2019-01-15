@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.pckg-items {
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  .pckg-item {
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#3289d3),to(#0153a0));
+    text-align: left;
+    padding:15px;
+    color: #ffffff;
+    border-radius: 5px;
+    max-width: 320px;
+    width: 100%;
+    margin: 5px;
+  }
+}
+
